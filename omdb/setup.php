@@ -10,7 +10,7 @@
  <div class="right-content">
     <div class="container">
 
-      <h3 style = "color: #01B0F1;">Setup (TO BE DONE LATER)</h3>
+      <h3 style = "color: #01B0F1;">TESTING HERE</h3>
 
     </div>
 </div>

@@ -35,63 +35,44 @@
 
             <a href="index.php">
               <li <?php if($nav_selected == "HOME"){ echo 'class="current-page"'; } ?>>
-              <img src="./images/home.png">
+              <img src="./images/omdb_logo.png">
               <br/>Home</li>
             </a>
 
-            <a href="list.php">
-              <li <?php if($nav_selected == "LIST"){ echo 'class="current-page"'; } ?>>
-                <img src="./images/list.png">
-                <br/>Movies</li>
-            </a>
+            <a href="movies.php">
+                          <li <?php if($nav_selected == "MOVIES"){ echo 'class="current-page"'; } ?>>
+                            <img src="./images/movie.jpg">
+                            <br/>Movies</li>
+                        </a>
 
-            <a href="timeline.php">
-              <li <?php if($nav_selected == "TIMELINE"){ echo 'class="current-page"'; } ?>>
-              <img src="./images/gantt.png">
-              <br/>People</li>
+            <a href="people.php">
+                          <li <?php if($nav_selected == "PEOPLE"){ echo 'class="current-page"'; } ?>>
+                          <img src="./images/people.jpg">
+                          <br/>People</li>
+                        </a>
+
+            <a href="songs.php">
+              <li <?php if($nav_selected == "SONGS"){ echo 'class="current-page"'; } ?>>
+                <img src="./images/song.png">
+                <br/>Songs</li>
             </a>
 
             <a href="reports.php">
-              <li <?php if($nav_selected == "REPORTS"){ echo 'class="current-page"'; } ?>>
-              <img src="./images/reports.png">
-              <br/>Songs</li>
-            </a>
-
-            <a href="scanner.php">
-              <li <?php if($nav_selected == "SCANNER"){ echo 'class="current-page"'; } ?>>
-                <img src="./images/scanner.png">
-                <br/>Reports</li>
-            </a>
-
-            <a href="history.php">
-              <li <?php if($nav_selected == "HISTORY"){ echo 'class="current-page"'; } ?>>
-                <img src="./images/history.png">
+                          <li <?php if($nav_selected == "REPORTS"){ echo 'class="current-page"'; } ?>>
+                          <img src="./images/reports.png">
+                          <br/>Reports</li>
+                        </a>
+    
+            <a href="puzzles.php">
+              <li <?php if($nav_selected == "PUZZLES"){ echo 'class="current-page"'; } ?>>
+                <img src="./images/puzzles.png">
                 <br/>Puzzles</li>
             </a>
-
-            <a href="trend.php">
-              <li <?php if($nav_selected == "TREND"){ echo 'class="current-page"'; } ?>>
-                <img src="./images/trend.png">
-                <br/>Help</li>
-            </a>
-
-
-        <a href="setup.php">
-          <li <?php if($nav_selected == "SETUP"){ echo 'class="current-page"'; } ?>>
-            <img src="./images/setup.png">
-            <br/>Setup</li>
-        </a>
-
-        <a href="about.php">
-          <li <?php if($nav_selected == "ABOUT"){ echo 'class="current-page"'; } ?>>
-            <img src="./images/about.png">
-            <br/>About</li>
-        </a>
 
         <a href="help.php">
           <li <?php if($nav_selected == "HELP"){ echo 'class="current-page"'; } ?>>
             <img src="./images/help.png">
-            <br/>help</li>
+            <br/>Help</li>
         </a>
 
       </ul>
@@ -109,22 +90,22 @@
         <?php
             if ($nav_selected == "HOME") {
                 include("./index.php");
-            } elseif ($nav_selected == "LIST") {
+            } elseif ($nav_selected == "SONGS") {
                 include("./left_menu_list.php");
-            } elseif ($nav_selected == "TIMELINE") {
+            } elseif ($nav_selected == "PEOPLE") {
                 include("./left_menu_timeline.php");
             } elseif ($nav_selected == "REPORTS") {
                 include("./left_menu_reports.php");
-            } elseif ($nav_selected == "SCANNER") {
-                include("./left_menu_scanner.php");
-            } elseif ($nav_selected == "HISTORY") {
+            } elseif ($nav_selected == "MOVIES") {
+                include("./left_menu_movies.php");
+            } elseif ($nav_selected == "PUZZLES") {
                 include("./left_menu_history.php");
-            } elseif ($nav_selected == "TREND") {
+            /*} elseif ($nav_selected == "TREND") {
               include("./left_menu_trend.php");
            } elseif ($nav_selected == "SETUP") {
             include("./left_menu_setup.php");
           } elseif ($nav_selected == "ABOUT") {
-          include("./left_menu_about.php");
+          include("./left_menu_about.php");*/
           }elseif ($nav_selected == "HELP") {
                 include("./left_menu_help.php");
             } else {
