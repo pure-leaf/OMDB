@@ -42,37 +42,37 @@
             <a href="list.php">
               <li <?php if($nav_selected == "LIST"){ echo 'class="current-page"'; } ?>>
                 <img src="./images/list.png">
-                <br/>List</li>
+                <br/>Movies</li>
             </a>
 
             <a href="timeline.php">
               <li <?php if($nav_selected == "TIMELINE"){ echo 'class="current-page"'; } ?>>
               <img src="./images/gantt.png">
-              <br/>Timeline</li>
+              <br/>People</li>
             </a>
 
             <a href="reports.php">
               <li <?php if($nav_selected == "REPORTS"){ echo 'class="current-page"'; } ?>>
               <img src="./images/reports.png">
-              <br/>Reports</li>
+              <br/>Songs</li>
             </a>
 
             <a href="scanner.php">
               <li <?php if($nav_selected == "SCANNER"){ echo 'class="current-page"'; } ?>>
                 <img src="./images/scanner.png">
-                <br/>Scanner</li>
+                <br/>Reports</li>
             </a>
 
             <a href="history.php">
               <li <?php if($nav_selected == "HISTORY"){ echo 'class="current-page"'; } ?>>
                 <img src="./images/history.png">
-                <br/>History</li>
+                <br/>Puzzles</li>
             </a>
 
             <a href="trend.php">
               <li <?php if($nav_selected == "TREND"){ echo 'class="current-page"'; } ?>>
                 <img src="./images/trend.png">
-                <br/>Trend</li>
+                <br/>Help</li>
             </a>
 
 
