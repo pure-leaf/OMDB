@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2020 at 12:23 AM
+-- Generation Time: Jun 24, 2020 at 11:04 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.3.17
 
@@ -112,7 +112,24 @@ INSERT INTO `movies` (`native_name`, `english_name`, `release_date`, `language`,
 ('The Lost World: Jurassic Park', 'The Lost World: Jurassic Park', 1997, '', ''),
 ('Singin in the Rain', 'Singin in the Rain', 1952, '', ''),
 ('The Lion in Winter', 'The Lion in Winter', 1968, '', ''),
-('The Philadelphia Story', 'The Philadelphia Story', 1940, '', '');
+('The Philadelphia Story', 'The Philadelphia Story', 1940, '', ''),
+('Alien', 'Alien', 1979, '', ''),
+('Braveheart', 'Braveheart', 1995, '', ''),
+('Guyver: Dark Hero', 'Guyver: Dark Hero', 1994, '', ''),
+('Joker', 'Joker', 2019, '', ''),
+('K-Pax', 'K-Pax', 2001, '', ''),
+('Love Wedding Repeat', 'Love Wedding Repeat', 2020, '', ''),
+('Munich', 'Munich', 2005, '', ''),
+('Schindler\'s List', 'Schindler\'s List', 1993, '', ''),
+('The Lobster', 'The Lobster', 2015, '', ''),
+('The Untouchables', 'The Untouchables', 1987, '', ''),
+('The Whole Truth', 'The Whole Truth', 2016, '', ''),
+('Toute la beauté du monde', 'All the Beauty of the World', 2006, '', ''),
+('Triple 9', 'Triple 9', 2016, '', ''),
+('You\'ve Got Mail', 'You\'ve Got Mail', 1998, '', ''),
+('Несокрушимый', 'Indestructible', 2018, '', ''),
+('प्यासा\r\n', 'Pyaasa (translit. of native title)', 1957, '', ''),
+('自殺サークル', 'Suicide Club', 2002, '', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
