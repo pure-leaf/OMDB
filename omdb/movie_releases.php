@@ -25,6 +25,8 @@
                         <th>Name (Native Lang)</th>
                         <th>Name (English Lang)</th>
                         <th>Year</th>
+						<th>Country</th>
+						<th>Language</th>
                 </tr>
               </thead>
 

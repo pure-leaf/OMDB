@@ -39,7 +39,7 @@
               <br/>Home</li>
             </a>
 
-            <a href="list.php">
+            <a href="movie_releases.php">
               <li <?php if($nav_selected == "LIST"){ echo 'class="current-page"'; } ?>>
                 <img src="./images/movies.jpg">
                 <br/>Movies</li>
@@ -110,7 +110,7 @@
             if ($nav_selected == "HOME") {
                 include("./index.php");
             } elseif ($nav_selected == "LIST") {
-                include("./left_menu_list.php");
+                include("./movie_releases.php");
             } elseif ($nav_selected == "TIMELINE") {
                 include("./left_menu_timeline.php");
             } elseif ($nav_selected == "REPORTS") {
@@ -128,7 +128,7 @@
           }elseif ($nav_selected == "HELP") {
                 include("./left_menu_help.php");
             } else {
-                include("./left_menu.php");
+                include("./left_menu_movies.php");
             }
         ?>
         </td>
